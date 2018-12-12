@@ -1,0 +1,32 @@
+@import "../../common/stylus/mixins.styl"
+.footer_guide
+  top-border-1px(#e4e4e4)
+  min-width 10rem
+  position fixed
+  z-index 99999
+  left 0
+  right 0
+  bottom 0
+  background-color #fff
+  height 1.38rem
+  display flex
+  text-align center
+  .guide_item
+    display flex
+    flex 1
+    text-align center
+    flex-direction column
+    align-items center
+    margin 0.066667rem
+    color #999999
+    .item_icon
+      color #E43929
+    &.on
+      color #E43929
+    span
+      display: block;
+      margin-top: .09333rem;
+      font-size: .2rem;
+      line-height: 1
+      .iconfont
+        font-size .66rem
